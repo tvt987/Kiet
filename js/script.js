@@ -68,15 +68,15 @@ let items = document.querySelectorAll('.item-img');
 
 let action = 0;
 let lengthList = items.length;
-next.addEventListener('click',()=> {
-    if(action >= lengthList){
-        action = 0;
-    }else{
-      action ++ ;
-      
-    }
+next.addEventListener('click', () => {
+  if (action >= lengthList) {
+    action = 0;
+  } else {
+    action++;
+
+  }
 });
 
-function reloadSlider(){
+function reloadSlider() {
   let widthImg = doc
 };
